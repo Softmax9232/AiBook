@@ -1,0 +1,1 @@
+This is ai book project integrated duckdb-wasm kit, sql, next.js, flask
