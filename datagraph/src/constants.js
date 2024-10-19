@@ -41,6 +41,7 @@ import zhTW from 'd3-time-format/locale/zh-TW.json'
 export const DateIcon = BsClock
 export const NumberIcon = BsHash
 export const StringIcon = BsType
+export const TimeIcon = BsTime
 
 export const dataTypeIcons = {
   date: DateIcon,
