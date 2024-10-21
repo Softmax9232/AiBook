@@ -16,7 +16,6 @@ import { initializeDuckDb } from "duckdb-wasm-kit";
 
 export default function Edit({ params }: { params: { id: string } }) {
   const duckbook_id: string = params.id;
-  //const { db } = useDuckDb();
   const { db } = useDuckDb() as { db: AsyncDuckDB };
   const router = useRouter();
   const dispatch = useAppDispatch();
@@ -76,7 +75,6 @@ export default function Edit({ params }: { params: { id: string } }) {
       })
       .catch((error) => {
         console.error("Error3:", error.message);
-        // Handle the error
       });
   };
 
