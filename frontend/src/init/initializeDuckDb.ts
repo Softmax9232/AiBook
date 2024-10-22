@@ -65,7 +65,7 @@ const _initializeDuckDb = async (config?: DuckDBConfig): Promise<AsyncDuckDB> =>
       }
       await db.registerFileBuffer(config1.path, new Uint8Array(buffer));
     } else { 
-      alert("123")
+      console.log("Not Registerd")
     }
     await db.open(config1);
   }
