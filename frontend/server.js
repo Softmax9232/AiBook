@@ -13,7 +13,7 @@ app.prepare().then(() => {
 
     if (pathname === '/custom-route') {
       // Handle custom route
-      res.end('This is a custom route');
+      res.end('This is a customized route');
     } else {
       handle(req, res, parsedUrl);
     }
